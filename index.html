@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+  Name: Isaiah Hames
+  Date: 03.03.2026
+  CSC 372-01
+
+  This is the index.html page for my rock, paper, scissor game. It includes the structure of the page, 
+  including the score display, player options, CPU choice display, and result display.
+ It also links to the style.css for styling and script.js for game logic.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors Game</h1>
+
+    <article id="score">
+        <h2>Score:</h2>
+        <p id="score-text">You: 0 | CPU: 0 </p>
+        <button id="reset-score">Reset Score</button>
+    </article>
+    
+    <h2>Your Choice:</h2>
+    <article id="ply-opt">
+        <button class="ply-btn"> <img src="images/rock.PNG" alt=""></button>
+        <button class="ply-btn"> <img src="images/paper.PNG" alt=""></button>
+        <button class="ply-btn"> <img src="images/scissors.PNG" alt=""></button>
+    </article>
+
+    <article id="cpu-opt">
+        <h2>CPU Choice:</h2>
+        <img id="cpu-choice" src="images/question-mark.PNG" alt="">
+    </article>
+
+    <article id="result">
+        <h2 id="result-text">Result:</h2>
+        <button id="reset-btn">Reset Game</button>
+    </article>
+
+
+</body>
+
+</html>
