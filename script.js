@@ -38,7 +38,7 @@ function playGame() {
 const cpuThrowArr = ["rock", "paper", "scissors"];
 let index = 0;
 function cpuChoice() {
-    cpuThrow.src = "images/" + cpuThrowArr[index] + ".png";
+    cpuThrow.src = "images/" + cpuThrowArr[index] + ".PNG";
     index++;
     if (index >= cpuThrowArr.length) {
         index = 0;
@@ -71,7 +71,7 @@ resetBTN.addEventListener('click', resetGame);
 
 function resetGame() {
     active = 0;
-    cpuThrow.src = "images/question-mark.png";
+    cpuThrow.src = "images/question-mark.PNG";
     document.getElementById("result-text").textContent = "Result:";
     cpuThrow.style.border = "2px solid black";
 
